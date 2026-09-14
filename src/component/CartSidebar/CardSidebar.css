@@ -75,3 +75,46 @@
     position: relative;
     top: 50px;
 }
+
+
+/* Mobile Responsive */
+@media (max-width: 600px) {
+
+    .sidebar {
+        width: 85%;
+        padding: 15px;
+    }
+
+    .cartItem {
+        gap: 8px;
+        flex-wrap: wrap;
+    }
+
+    .cartItem img {
+        width: 55px;
+        height: 55px;
+    }
+
+    .cartDetails {
+        min-width: 100px;
+    }
+
+    .qtyControls {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .removeBtn {
+        padding: 5px 7px;
+    }
+
+    .total {
+        font-size: 17px;
+    }
+
+    .orderBtn {
+        padding: 11px;
+        font-size: 15px;
+    }
+}

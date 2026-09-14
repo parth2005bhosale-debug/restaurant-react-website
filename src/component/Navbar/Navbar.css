@@ -93,17 +93,35 @@ span{
     }
 }
 
+
 @media (max-width: 768px){
+
     nav{
-        flex-direction: column;
-        gap: 15px;
+        padding: 12px 15px;
+        gap: 10px;
     }
-    .listItems{
-        gap: 20px;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
+
     .logo{
         font-size: 24px;
     }
+
+    .foodlogo{
+        font-size: 30px;
+    }
+
+    .listItems{
+        gap: 18px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .listItems li a{
+        font-size: 18px;
+    }
+
+    .listItems li:last-child a{
+        font-size: 22px;
+        padding: 6px;
+    }
+
 }
