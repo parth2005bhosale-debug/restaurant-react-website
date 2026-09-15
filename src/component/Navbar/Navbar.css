@@ -97,23 +97,26 @@ span{
 @media (max-width: 768px){
 
     nav{
+        flex-direction: column;
         padding: 12px 10px;
-        gap: 8px;
+        gap: 10px;
     }
 
     .logo{
-        font-size: 22px;
+        font-size: 24px;
         white-space: nowrap;
     }
 
     .foodlogo{
-        font-size: 28px;
+        font-size: 30px;
     }
 
     .listItems{
-        gap: 12px;
+        display: flex;
         flex-wrap: nowrap;
+        gap: 14px;
         justify-content: center;
+        width: 100%;
     }
 
     .listItems li a{
@@ -121,8 +124,8 @@ span{
     }
 
     .listItems li:last-child a{
-        font-size: 21px;
-        padding: 5px;
+        font-size: 22px;
+        padding: 3px;
     }
 
 }
